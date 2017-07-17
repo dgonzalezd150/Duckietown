@@ -41,7 +41,7 @@ Deja al robot movible, con el uso de WI-FI.<br>
 Se inician los nodos del ***duckie_core.launch***, explicados al [inicio.](#archivos)
 <br>Se prenden los motores, para su uso mediante el control, además de la camara para detectar apriltags. </br>
 
-5.**Usar el codigo en el pc `roslaunch duckietown_description duckietown_description_node.launch veh:=duckiebot`**
+5.**Usar el codigo en el pc `roslaunch duckietown localization.launch veh:=duckiebot`**
 
 Este launch lanzará el mapa 3D en ***Rviz***, para su visualizacion.
 
