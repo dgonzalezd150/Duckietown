@@ -30,7 +30,7 @@ sin atropellar a un pato.
 2.**Usar el comando `./hotspot.sh on`**
 
 Deja al robot movible, con el uso de WI-FI.<br>
-*Indicacion*: Se quedará pegada la terminal al correr el codigo. Se requiere reiniciar,y conectar mediante Wi-fi</br>
+*Indicacion*: Se quedará pegada la terminal al correr el codigo. Se requiere reiniciar y conectar mediante Wi-fi</br>
 
 3.**Correr `Byoubu`**
 
