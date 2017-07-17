@@ -36,12 +36,24 @@ Deja al robot movible, con el uso de WI-FI.<br>
 
 *Indicacion*: Con `F2` se abren nuevas pestañas, y `F3` para cambiar.
 
-4.**Correr el codigo `roslaunch ros_cap duckie_core.launch`**
+4.**Usar el comando `roscore`**
+
+5.**Correr el codigo `roslaunch ros_cap duckie_core.launch`**
 
 Se inician los nodos del ***duckie_core.launch***, explicados al [inicio.](#archivos)
 <br>Se prenden los motores, para su uso mediante el control, además de la camara para detectar apriltags. </br>
 
-5.**Usar el codigo en el pc `roslaunch duckietown localization.launch veh:=duckiebot`**
+### En el computador <br></br>
+
+6.**Correr `cd duckietown`**
+
+Para ingresar a la carpeta, donde se encuentran los archivos.
+
+7.**Correr `Source environment.sh`**
+
+8.**Usar `source set_ros_master.sh duckiebot`**
+
+9.**Usar el codigo en el pc `roslaunch duckietown localization.launch veh:=duckiebot`**
 
 Este launch lanzará el mapa 3D en ***Rviz***, para su visualizacion.
 
