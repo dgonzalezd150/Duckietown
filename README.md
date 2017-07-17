@@ -45,15 +45,15 @@ Se inician los nodos del ***duckie_core.launch***, explicados al [inicio.](#arch
 
 ### En el computador <br></br>
 
-6.**Correr `cd duckietown`**
+6.**Usar el comando `cd duckietown`**
 
 Para ingresar a la carpeta, donde se encuentran los archivos.
 
 7.**Correr `Source environment.sh`**
 
-8.**Usar `source set_ros_master.sh duckiebot`**
+8.**Correr `source set_ros_master.sh duckiebot`**
 
-9.**Usar el codigo en el pc `roslaunch duckietown localization.launch veh:=duckiebot`**
+9.**Usar el codigo `roslaunch duckietown localization.launch veh:=duckiebot`**
 
 Este launch lanzará el mapa 3D en ***Rviz***, para su visualizacion.
 
