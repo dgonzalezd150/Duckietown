@@ -2,8 +2,24 @@
 
 <h2>Archivos</h2>
 
+* <h4>Duckie_core.launch</h4>
+
+Este archivo tipo launch, activa la camara y los motores, además de los nodos [joy_control](#joy_control),
+[duck_detector](#duck_detector) y [controller](#controller)
+* <h4>Apriltags.launch</h4>
 
 
+* <h4>Joy_control</h4>
+
+Este nodo se encarga de recibir los datos del control y entregarlos.
+* <h4>Duck_detector</h4>
+
+Este nodo realiza la captacion de imagen, por parte de la camara, para ver si se encuentra un pato al frente, y entrega su 
+posicion.
+* <h4>Controller</h4>
+
+Este toma los datos de ambos nodos (joy_control y duck_detector), para que el duckiebot se pueda mover 
+sin atropellar a un pato.
 
 <h2>Procedimiento</h2>
 
@@ -23,7 +39,7 @@ Se inician los nodos del ***duckie_core.launch***, explicados al [inicio.](#arch
 
 Este launch lanzará el mapa 3D en ***Rviz***, para su visualizacion.
 
-![Texto Alt]()
+![Texto Alt](Image/Rviz.png)
 
 5.**Listo para usar**:sunglasses: :hatched_chick:
    
