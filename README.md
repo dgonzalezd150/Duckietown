@@ -27,7 +27,7 @@ sin atropellar a un pato.
 
 1.**Iniciar mediante ssh al duckiebot**
 
-2.**Usar `cd duckietown`**
+2.**Ejecutar `cd duckietown`**
 
 3.**Usar el comando `./hotspot.sh on`**
 
