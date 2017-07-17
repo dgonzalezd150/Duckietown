@@ -27,37 +27,39 @@ sin atropellar a un pato.
 
 1.**Iniciar mediante ssh al duckiebot**
 
-2.**Usar el comando `./hotspot.sh on`**
+2.**Usar `cd duckietown`**
+
+3.**Usar el comando `./hotspot.sh on`**
 
 Deja al robot movible, con el uso de WI-FI.<br>
 *Indicacion*: Se quedará pegada la terminal al correr el codigo. Se requiere reiniciar y conectar mediante Wi-fi</br>
 
-3.**Correr `Byoubu`**
+4.**Correr `Byoubu`**
 
 *Indicacion*: Con `F2` se abren nuevas pestañas, y `F3` para cambiar.
 
-4.**Usar el comando `roscore`**
+5.**Usar el comando `roscore`**
 
-5.**Correr el codigo `roslaunch ros_cap duckie_core.launch`**
+6.**Correr el codigo `roslaunch ros_cap duckie_core.launch`**
 
 Se inician los nodos del ***duckie_core.launch***, explicados al [inicio.](#archivos)
 <br>Se prenden los motores, para su uso mediante el control, además de la camara para detectar apriltags. </br>
 
 ### En el computador <br></br>
 
-6.**Usar el comando `cd duckietown`**
+7.**Usar el comando `cd duckietown`**
 
 Para ingresar a la carpeta, donde se encuentran los archivos.
 
-7.**Correr `Source environment.sh`**
+8.**Correr `Source environment.sh`**
 
-8.**Correr `source set_ros_master.sh duckiebot`**
+9.**Correr `source set_ros_master.sh duckiebot`**
 
-9.**Usar el codigo `roslaunch duckietown localization.launch veh:=duckiebot`**
+10.**Usar el codigo `roslaunch duckietown localization.launch veh:=duckiebot`**
 
 Este launch lanzará el mapa 3D en ***Rviz***, para su visualizacion.
 
 ![Texto Alt](Image/Rviz.png)
 
-6.**Listo para usar**:sunglasses: :hatched_chick:
+11.**Listo para usar**:sunglasses: :hatched_chick:
    
