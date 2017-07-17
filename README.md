@@ -1,4 +1,4 @@
-<h1>Guia De Localizacion</h1>
+<h1>Guia de Localizacion</h1>
 
 <h2>Archivos</h2>
 
