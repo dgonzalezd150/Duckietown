@@ -5,20 +5,20 @@
 * <h4>Duckie_core.launch</h4>
 
 Este archivo tipo launch, activa los motores y ejecuta los nodos [joy_control](#joy_control),
-[duck_detector](#duck_detector) y [controller](#controller), ademas de `Apriltags.launch`
+[duck_detector](#duck_detector) y [controller](#controller), ademas de `apriltags.launch`
 
-* <h4>Apriltags.launch</h4>
+* <h4>apriltags.launch</h4>
 
 Activa la camara, y la deteccion de apriltags.
 
-* <h4>Joy_control</h4>
+* <h4>joy_control</h4>
 
 Este nodo se encarga de entregar los datos del control.
-* <h4>Duck_detector</h4>
+* <h4>duck_detector</h4>
 
 Este nodo realiza la captacion de imagen, por parte de la camara, para ver si se encuentra un pato al frente, y entrega su 
 posicion.
-* <h4>Controller</h4>
+* <h4>controller</h4>
 
 Este toma los datos de ambos nodos (`joy_control` y `duck_detector`), para que el duckiebot se pueda mover 
 sin atropellar a un pato.
@@ -56,7 +56,7 @@ Se inician los nodos del ***apriltags.launch***, explicados al [inicio.](#archiv
 
 Para ingresar a la carpeta, donde se encuentran los archivos.
 
-8.**Correr `Source environment.sh`**
+8.**Correr `source environment.sh`**
 
 9.**Correr `source set_ros_master.sh duckiebot`**
 
