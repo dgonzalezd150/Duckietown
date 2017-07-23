@@ -34,16 +34,21 @@ sin atropellar a un pato.
 Deja al robot movible, con el uso de WI-FI.<br>
 *Indicacion*: Se quedará pegada la terminal al correr el codigo. Se requiere reiniciar y conectar mediante Wi-fi</br>
 
-4.**Correr `Byoubu`**
+4.**Correr `byoubu`**
 
 *Indicacion*: Con `F2` se abren nuevas pestañas, y `F3` para cambiar.
 
 5.**Usar el comando `roscore`**
 
-6.**Correr el codigo `roslaunch ros_cap duckie_core.launch`**
+6.**Correr el codigo `roslaunch ros_cap duckie_core.launch veh:=duckiebot`**
 
 Se inician los nodos del ***duckie_core.launch***, explicados al [inicio.](#archivos)
-<br>Se prenden los motores, para su uso mediante el control, además de la camara para detectar apriltags. </br>
+<br>Se prenden los motores, para su uso mediante el control, además de la camara para detectar apriltags (la cámara se activa con este nodo sólamente en el repositorio de Juan y Julian). </br>
+
+6*.**Correr el codigo `roslaunch duckietown apriltags.launch veh:=duckiebot`**
+
+Se inician los nodos del ***apriltags.launch***, explicados al [inicio.](#archivos)
+<br>Se prende la camara para detectar apriltags (paso sólo para el repositorio de Diego y Pavan). </br>
 
 ### En el computador <br></br>
 
